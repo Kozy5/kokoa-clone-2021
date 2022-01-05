@@ -30,21 +30,27 @@
       </p>
     </header>
 
-    <form class="login-form">
+    <form action="friends.html" method="get" class="login-form">
       <input
+        name="username"
         class="login-form__border-bottom"
         type="text"
         required
         placeholder="Email or phone number"
       />
       <input
+        naem="userpassword"
         class="login-form__border-bottom"
         type="password"
         required
         placeholder="Password"
       />
-      <input type="submit" value="Log In" />
-      <input type="submit" value="Sign Up" />
+      <abbr class="login-form__abbr" title="로그인"
+        ><input type="submit" value="Log In"
+      /></abbr>
+      <abbr class="login-form__abbr" title="회원가입"
+        ><input type="submit" value="Sign Up"
+      /></abbr>
 
       <a href="#">Find Guma Account or Password</a>
     </form>
