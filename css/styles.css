@@ -3,17 +3,18 @@
 @import "variables.css";
 
 /* Componentss */
-@import "components/status-bar.css";
-@import "components/nav-bar.css";
-@import "components/friends.css";
-@import "components/screen-header.css";
-@import "components/user-component.css";
 @import "components/badge.css";
 @import "components/dot-noti.css";
 @import "components/message-noti.css";
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
 
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
 
 body {
   font-family: "Open Sans", sans-serif;

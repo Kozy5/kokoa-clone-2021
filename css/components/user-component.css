@@ -38,13 +38,20 @@
   font-weight: 400;
 }
 
-.user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.5);
-}
-
 .user-component-chats,
-.user-component-chats__column:first-child {
+.user-component-chats__column {
   display: flex;
   align-items: center;
   padding-bottom: 15px;
+}
+.user-component-chats:last-child {
+  justify-content: space-between;
+}
+.user-component-chats__column:last-child {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component-chats__column-noti {
+  display: flex;
+  flex-direction: column;
 }
