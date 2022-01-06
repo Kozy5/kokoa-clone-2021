@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Guma Talk</title>
+    <title>Chats - Guma Talk</title>
   </head>
   <body>
     <div class="status-bar">
@@ -14,7 +14,7 @@
         <i class="fas fa-wifi"></i>
       </div>
       <div class="status-bar__column">
-        <span>18:43</span>
+        <span>21:23</span>
       </div>
       <div class="status-bar__column">
         <span>100%</span>
@@ -24,12 +24,15 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Chats</h1>
       <div class="screen-header__icons">
         <ul class ="screen-header__list">
           <li class="screen-header__btn">
             <a href="#"><abbr title="통합검색"><i class="fas fa-search fa-lg"></i></abbr>
             </a></li>
+            <li class="screen-header__btn">
+                <a href="#"><abbr title="채팅옵션"><i class="far fa-comment-dots fa-lg"></i></abbr>
+                </a></li>
           <li class="screen-header__btn"><a href="#"><abbr title="Guma뮤직"><i class="fas fa-music fa-lg"></i></abbr></a></li>
           <li class="screen-header__btn"><a href="#"><abbr title="설정"><i class="fas fa-cog fa-lg"></i></abbr></a></li>
         </ui>
@@ -37,38 +40,20 @@
     </header>
 
     
-    <a ID="friends-display-link"href="#">
-      <i class="fas fa-info-circle"></i>Friends'Names Display <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
+
 
     <main class="main-screen">
-    <div class="user-component">
-      <div class="user-component__column">
-        <img src="resorces/gumaprofile.jpg"  class="user-component__avatar user-component__avatar--xl">
+    <div class="user-component-chats">
+      <div class="user-component-chats__column">
+        <img src="resorces/gumaprofile.jpg"  class="user-component__avatar user-component__avatar">
         <div class="user-component__text">
-          <h4 class="user-component__title">Guma</h4>
-          <!--<h6 class="user-component__subtitle">"subtitle"</h6>-->
+          <h4 class="user-component__title">GumaTalk</h4>
+          <h6 class="user-component__subtitle">Please check My Guma Account Info</h6>
         </div>
       </div>
 
-      <div class="user-component__column">
-      </div>
-    </div>
-    <div class ="friends-screen__channel">
-      <div class="friends-screen__channel-header">
-        <span>Channel</span> <i class="fas fa-chevron-up fa-xs"></i>
-      </div>
-      <div class="user-component">
-        <div class="user-component__column">
-          <img src="resorces/gumaprofile.jpg"  class="user-component__avatar user-component__avatar--sm">
-          <div class="user-component__text">
-            <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
-          </div>
-        </div>
-  
-        <div class="user-component__column">
-          <span>2</span> <i class="fas fa-chevron-right fa-xs"></i>
-        </div>
+      <div class="user-component-chats__column user-component-chats__column-noti">
+        <span>21:22</span><span class =" message-noti badge ">1</span>
       </div>
     </div>
   </main>
@@ -77,21 +62,19 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html"
-            ><abbr title="친구"><i class="fas fa-user fa-2x"></i
-          ></abbr></a>
+            ><abbr title="친구"><i class="far fa-user fa-2x"></i></abbr></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html"
             ><span class="nav__noti nav__chat-noti__position message-noti badge">1</span
-            ><abbr title="채팅"><i class="far fa-comment fa-2x"></i
-          ></abbr></a>
+            ><abbr title="채팅"><i class="fas fa-comment fa-2x"></i></abbr></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="find.html"><abbr title="추가메뉴"><i class="fas fa-search fa-2x"></i></abbr></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="more.html"></a>
-            <span class="nav__noti nav__ellipsis-noti__position dot-noti badge "> </span
+            <span class="nav__noti nav__ellipsis-noti__position dot-noti badge"> </span
             ><abbr title="더보기"><i class="fas fa-ellipsis-h fa-2x"></i
           ></abbr></a>
         </li>
