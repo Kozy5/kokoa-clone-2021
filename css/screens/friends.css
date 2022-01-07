@@ -3,8 +3,9 @@
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.03);
-  padding: 15px 0px;
-  margin: -25px 0px;
+  padding: 11px 0px;
+  margin-top: -25px;
+  margin-bottom: 10px;
   font-weight: bold;
 }
 
@@ -21,5 +22,5 @@
 .friends-screen__channel-header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: -47px;
+  margin-bottom: 20px;
 }
