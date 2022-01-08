@@ -11,6 +11,9 @@
   right: 0px;
   top: 50px;
 }
+.screen-header__back {
+  position: fixed;
+}
 
 .screen-header__title {
   font-size: 32px;
