@@ -1,11 +1,12 @@
 .settings-screen__header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  padding: 15px 30px;
-  background-color: tomato;
-  position: fixed;
-  top: 5%;
-  box-sizing: border-box;
+  top: 6%;
+  padding-bottom: 0px;
+}
+.settings-screen__header__title {
+  font-size: 25px;
+  font-weight: bold;
+}
+.setting-screen_item span {
+  font-size: 25px;
+  margin-left: 10px;
 }

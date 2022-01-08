@@ -28,3 +28,6 @@ body {
 .main-screen {
   padding: 0px var(--horizontal-space);
 }
+.main-screen-settings {
+  padding-top: 90px;
+}

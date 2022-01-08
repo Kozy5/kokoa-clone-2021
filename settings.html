@@ -8,6 +8,7 @@
     <title>Settings - Guma Talk</title>
   </head>
   <body class="bodyheight">
+
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -22,22 +23,27 @@
         <i class="fas fa-bolt"></i>
       </div>
     </div>
-
-    <header class="settings-screen__header">
-      <div class="settings-screen__header-back">
-        <a class="settings-screen__header__back-icon" href="friedns.html"><i class="fas fa-chevron-left fa-2x"></i></a>
+    <header>
+    <div class="status-bar settings-screen__header">
+      <div class="status-bar__column settings-screen__header-back">
+        <a class="settings-screen__header__back-icon" href="friends.html"">
+          <abbr title="뒤로가기"><i class="fas fa-chevron-left fa-2x"></i></abbr></a>
       </div>
-      <h1 class="settings-screen__header__title">Settings</h1>
-      <div class="screen-header__icons settings-screen-header__icon">
-        <ul class ="screen-header__list">
-          <li class="screen-header__btn">
-            <a href="#"><abbr title="통합검색"><i class="fas fa-search fa-lg"></i></abbr>
+      <div class="status-bar__column settings-screen__header__title">
+        <span>Settings</span>
+      </div>
+      <div class="status-bar__column settings-screen-header__icon">
+        <ul class ="settings-screen-header__list">
+          <li class="settings-screen-header__btn">
+            <a href="#"><abbr title="통합검색"><i class="fas fa-search fa-2x"></i></abbr>
             </a></li>
         </ui>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <main>
+
+    <main class="main-screen main-screen-settings">
       <div class="setting-screen">
         <div class="setting-screen_items">
           <div class="setting-screen_item"><i class="fas fa-check fa-lg"></i><span>Notices</span></div>
