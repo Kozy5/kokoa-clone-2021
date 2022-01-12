@@ -3,24 +3,28 @@
   justify-content: space-between;
   align-items: center;
   padding: 60px var(--horizontal-space);
+  margin-top: -15px;
 }
 .screen-header__list {
   display: flex;
   align-items: center;
   position: fixed;
   right: 0px;
-  top: 50px;
-}
-.screen-header__back {
-  position: fixed;
+  top: 32.5px;
 }
 
 .screen-header__title {
-  font-size: 32px;
+  font-size: 20px;
   font-weight: 900;
   position: fixed;
 }
 
 .screen-header__btn {
   margin: 0px 10px;
+  font-size: 13px;
+}
+.screen-header__btn audio {
+  width: 120px;
+  height: 20px;
+  position: relative;
 }

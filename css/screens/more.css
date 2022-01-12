@@ -14,9 +14,30 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 10px;
+}
+.user-component__subtitle-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-component__subtitle-more div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+  height: 10px;
+  background-color: pink;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  font-size: 5px;
+  position: relative;
+  bottom: -4px;
+  margin-left: 5px;
 }
 .more-screen__icon span {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .more-screen__icon-badgepositon {
@@ -32,23 +53,12 @@
 }
 .more-suggestions__main {
   display: flex;
-  justify-content: space-between;
-  padding: 20px;
-}
-.more-suggestions__icons {
-  display: flex;
   flex-direction: column;
+  padding-top: 10px;
   justify-content: center;
   align-items: center;
 }
-.more-suggestions__icons span {
-  text-align: center;
-  margin-top: 10px;
-  width: 50px;
-}
-
-.more-component__icon > i {
-  position: absolute;
-  bottom: 0%;
-  right: -20px;
+.more-suggestions__column img {
+  width: 90vw;
+  height: 250px;
 }

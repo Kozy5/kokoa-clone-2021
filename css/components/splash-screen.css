@@ -1,0 +1,52 @@
+@keyframes hidesplashscreen-index {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.splash-screen__standard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: pink;
+  top: 0;
+  animation: hidesplashscreen-index 0.5s ease-in-out forwards;
+  animation-delay: 2.5s;
+}
+.splash-screen__standard img {
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  margin-top: -100px;
+}
+.splash-screen__column span {
+  font-size: 40px;
+  font-weight: bold;
+  color: pink;
+  position: absolute;
+  bottom: 85px;
+}
+.splash-screen__column i {
+  color: white;
+  font-size: 200px;
+}
+.splash-screen__column {
+  position: relative;
+  right: -110px;
+  top: -100px;
+}
+.splash-screen__pageenter {
+  animation-delay: 1s;
+}
+.splash-screen__pageenter .splash-screen__column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

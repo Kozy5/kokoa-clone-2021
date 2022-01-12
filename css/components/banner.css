@@ -1,0 +1,9 @@
+.banner-chat-top {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+.banner-chat-top img {
+  width: 97vw;
+  height: 70px;
+}

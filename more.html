@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>More - Guma Talk</title>
   </head>
-  <body>
+  <body style ="height:160vh;">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -30,20 +30,24 @@
           <li class="screen-header__btn">
             <a href="#"><abbr title="통합검색"><i class="fas fa-search fa-lg"></i></abbr>
             </a></li>
-          <li class="screen-header__btn"><a href="#"><abbr title="Guma뮤직"><i class="fas fa-music fa-lg"></i></abbr></a></li>
+            <li class="screen-header__btn"><abbr title="Guma뮤직"><audio src="resorces/music/bubblelove.mp3" 
+              controls : disabled>
+            </audio></abbr></li>
           <li class="screen-header__btn"><a href="settings.html"><abbr title="설정"><i class="fas fa-cog fa-lg"></i></abbr></a></li>
         </ui>
       </div>
     </header>
 
-    <main class="main-screen">
+    <main style="margin-top:-35px;"class="main-screen">
       <div class="user-component">
         <div class="user-component__column">
           <img src="resorces/sleepguma.png"  class="user-component__avatar user-component__avatar--sm">
           <div class="user-component__text">
             <h4 class="user-component__title user-component__title--not-bold">Guma♥</h4>
-            <div class="user-component__subtitle-more"><h6 class="user-component__subtitle">+82 10-0617-9m9m</h6> 
-              <div class="more-component__icon relative"><i class="fas fa-exclamation-circle fa-nm"></i></div></div>
+            <div class="user-component__subtitle-more">
+              <span class="user-component__subtitle">+82 10-0617-9m9m</span><div>i</div>
+              
+            </div>
           </div>
         </div>
         <div class="user-component__column">
@@ -67,11 +71,14 @@
       <div class="more-suggestions">
         <span>Suggestions</span>
         <div class="more-suggestions__main">
-        <div class="more-suggestions__icons"><i class="far fa-question-circle fa-3x"></i><span>Guma Story(예정)</span></div>
-        <div class="more-suggestions__icons"><i class="far fa-question-circle fa-3x"></i><span>Guma website(예정)</span></div>
-        <div class="more-suggestions__icons"><i class="far fa-question-circle fa-3x"></i><span>Guma Games(예정)</span></div>
-        <div class="more-suggestions__icons opacityclone"><i class="far fa-question-circle fa-3x"></i><span>Guma Games</span></div>
-      
+          
+        <div class="more-suggestions__column">
+          <a href="https://www.youtube.com/watch?v=WQK36RBTia4&t=56s"><img src="resorces/sinjeonbannerboki.png"/></a>
+        </div>
+        <div class="more-suggestions__column">
+          <a href="https://www.youtube.com/watch?v=eHuJrBt918A"><img src="resorces/sinjeonbannerhatnim.png"/></a>
+        </div>
+
       </div>
       </div>
       
@@ -99,6 +106,14 @@
         </li>
       </ul>
     </nav>
+
+    <div class="splash-screen__standard splash-screen__pageenter">
+      <div class="splash-screen__column">
+        <span>More</span>
+        <i class="fas fa-comment"></i>
+      </div>
+      <img src="resorces/childgumagum.png" />
+    </div>
 
     <script
       src="https://kit.fontawesome.com/f7affbdaa9.js"

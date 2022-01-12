@@ -5,8 +5,8 @@
   position: fixed;
   top: 0px;
   width: 100%;
-  background-color: white;
-  padding-bottom: 70px;
+  background-color: rgb(253, 245, 246);
+  padding-bottom: 50px;
 }
 .status-bar__column {
   width: 33%;
@@ -26,4 +26,26 @@
 
 .status-bar__column .fa-battery-full {
   margin: 0px 5px;
+}
+
+.status-upgrade-screen__header {
+  top: 8%;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  font-size: 13px;
+  margin-top: -15px;
+}
+
+.status-upgrade-screen__header-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+.status-upgrade-screen__header-list {
+  display: flex;
+}
+
+.status-upgrade-screen__header-btn {
+  margin-left: 20px;
 }

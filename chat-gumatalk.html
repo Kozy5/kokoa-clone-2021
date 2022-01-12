@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatRoom - Guma Talk</title>
+  </head>
+  <body id="chat-screen">
+
+    <div class="status-bar chat-screens-absolute-color">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>21:23</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header>
+    <div class="status-bar status-upgrade-screen__header chat-screens-absolute-color">
+      <div class="status-bar__column status-upgrade-screen__header-back">
+        <a class="status-upgrade-screen__header__back-icon" href="chats.html"">
+          <abbr title="뒤로가기"><i class="fas fa-chevron-left fa-2x"></i></abbr></a>
+      </div>
+      <div class="status-bar__column status-upgrade-screen__header-title">
+        <span>GumaTalk</span>
+      </div>
+      <div class="status-bar__column">
+        <ul class ="status-upgrade-screen__header-list">
+          <li class="status-upgrade-screen__header-btn">
+            <a href="#"><abbr title="통합검색"><i class="fas fa-search fa-2x"></i></abbr>
+            </a></li>
+            <li class="status-upgrade-screen__header-btn">
+              <a href="#"><abbr title="목록"><i class="fas fa-bars fa-2x"></i></abbr>
+              </a></li>
+        </ui>
+      </div>
+    </div>
+  </header>
+
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, Jan 4,2022
+      </div>
+
+      <div class="message-row">
+        <img src="resorces/gumaprofile.jpg"/>
+        <div class="message-row__content">
+          <span class="message-author">GumaTalk</span>
+          <div class="message-info">
+            <span class="message-bubble">Please check My Guma Account Info</span>
+            <span class="message-time">9:22 PM</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message-info">
+            <span class="message-bubble">Ok!</span>
+            <span class="message-time">9:23 PM</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="write message here!"/> 
+        <i class="far fa-grin fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up fa-lg"></i>
+        </button>
+      </div>
+    </form>
+
+
+    <script
+      src="https://kit.fontawesome.com/f7affbdaa9.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

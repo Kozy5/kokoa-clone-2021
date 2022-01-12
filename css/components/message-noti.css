@@ -1,13 +1,13 @@
 .message-noti {
-  width: 20px;
-  height: 20px;
+  width: 11px;
+  height: 11px;
   color: white;
   font-weight: 600;
 }
 
 .message-noti-long {
-  width: 40px;
-  height: 20px;
+  width: 25px;
+  height: 13px;
   color: white;
   font-weight: 600;
 }
