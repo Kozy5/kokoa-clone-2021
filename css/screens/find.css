@@ -86,6 +86,23 @@
   bottom: 7%;
   right: 7%;
 }
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
 .open-post__column span > i {
   margin-right: 5px;
+  will-change: transform;
+  animation: heartBeat 2s linear infinite;
 }

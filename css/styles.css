@@ -13,6 +13,7 @@
 @import "components/user-component.css";
 @import "components/banner.css";
 @import "components/splash-screen.css";
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -33,5 +34,5 @@ body {
   padding: 0px var(--horizontal-space);
 }
 .main-screen-settings {
-  padding-top: 90px;
+  padding-top: 100px;
 }

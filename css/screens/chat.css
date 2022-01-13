@@ -1,6 +1,16 @@
+@keyframes screen-enter {
+  from {
+    transform: translateY(90px);
+  }
+  to {
+    transform: none;
+  }
+}
+
 #chat-screen {
   background-color: rgb(253, 228, 232);
   height: 1000vh;
+  animation: screen-enter 0.1s linear;
 }
 .chat-screens-absolute-color {
   background-color: rgb(253, 228, 232);

@@ -30,3 +30,16 @@
   top: -10px;
   right: -5px;
 }
+.nav__btn {
+  animation: nav__btn-animation 2.5s ease-in-out forwards;
+}
+@keyframes nav__btn-animation {
+  from {
+    transform: translateY(80px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
