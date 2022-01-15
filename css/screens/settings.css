@@ -48,3 +48,7 @@
   height: 150vh;
   animation: screen-enter 2s ease-in-out;
 }
+
+.main-screen-settings a {
+  color: black;
+}
